@@ -1,0 +1,226 @@
+<mxfile host="65bd71144e">
+    <diagram id="trade-fund-org" name="组织架构图">
+        <mxGraphModel dx="1859" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="company" value="公司组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="40" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="itOrg" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="itOrg" value="IT 组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="82" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bizOrg" value="业务组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="150" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="salesIT" value="Sales IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="-7" y="262" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="buIT" value="BU IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="273" y="265" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="psIT" value="PS IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="463" y="259" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="frontIT" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="frontIT" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="frontIT" value="前台 IT 团队" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#4fc3f7;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry y="376" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="midIT" value="中台 IT 团队" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b7e1cd;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="334" y="376" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aliIT" value="Ali IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4fc3f7;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-55" y="500" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="jdIT" value="JD IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4fc3f7;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="68" y="500" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="seoIT" value="SEO IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="500" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="tradeFundIT" value="Trade Fund IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="488" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="salesGroup" value="Sales 体系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="985" y="270" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="faGroup" value="FA 体系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="280" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="ecom" target="ae" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ecom" value="Ecom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="390" width="100" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="oando" value="O&amp;O" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="390" width="100" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="dpb" target="ae" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="dpb" value="DPB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="390" width="100" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="dcom" target="ae" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="dcom" value="DCOM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="390" width="100" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="corpMSP" value="Corp MSP / GET&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(192, 12, 12), rgb(237, 237, 237));&quot;&gt;Operation：Echo Wang B3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(192, 12, 12), rgb(237, 237, 237));&quot;&gt;ITT Design： Carol Hu B3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;SEO：Mia Zhang B3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="433" width="157" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ae" value="AE&lt;div&gt;核心用户群体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="524" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="corpFA" value="Corp FA&lt;div&gt;设置 ITT&lt;/div&gt;&lt;div&gt;central guidance 与监管&lt;/div&gt;&lt;div&gt;Xie Fei B3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="471" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ctfm" value="CTFM&lt;div&gt;渠道财务执行与监管&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1637" y="473" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="iag" value="IAG&lt;div&gt;报销材料审核&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1343" y="625" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="collab" value="Trade Fund 领域协作核心&lt;div&gt;连接业务规则、财务规划、系统实现、执行落地与控制要求&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="750" width="340" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" style="endArrow=block;html=1;rounded=0;" parent="1" source="company" target="itOrg" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" style="endArrow=block;html=1;rounded=0;" parent="1" source="company" target="bizOrg" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" style="endArrow=block;html=1;rounded=0;" parent="1" source="itOrg" target="salesIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" style="endArrow=block;html=1;rounded=0;" parent="1" source="itOrg" target="buIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" style="endArrow=block;html=1;rounded=0;" parent="1" source="itOrg" target="psIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesIT" target="frontIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesIT" target="midIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" style="endArrow=block;html=1;rounded=0;" parent="1" source="frontIT" target="aliIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" style="endArrow=block;html=1;rounded=0;" parent="1" source="frontIT" target="jdIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" style="endArrow=block;html=1;rounded=0;" parent="1" source="midIT" target="seoIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" style="endArrow=block;html=1;rounded=0;" parent="1" source="midIT" target="tradeFundIT" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" style="endArrow=block;html=1;rounded=0;" parent="1" source="bizOrg" target="salesGroup" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" style="endArrow=block;html=1;rounded=0;" parent="1" source="bizOrg" target="faGroup" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e14" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesGroup" target="ecom" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e15" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesGroup" target="oando" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e16" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesGroup" target="dpb" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e17" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesGroup" target="dcom" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e18" style="endArrow=block;html=1;rounded=0;" parent="1" source="salesGroup" target="corpMSP" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="861" y="335"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e19" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="oando" target="ae" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e20" style="endArrow=block;html=1;rounded=0;" parent="1" source="faGroup" target="corpFA" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e21" style="endArrow=block;html=1;rounded=0;" parent="1" source="faGroup" target="ctfm" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e22" style="endArrow=block;html=1;rounded=0;" parent="1" source="faGroup" target="twoLOD" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e23" style="endArrow=block;html=1;rounded=0;" parent="1" source="twoLOD" target="iag" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e24" style="endArrow=block;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" parent="1" source="tradeFundIT" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e25" style="endArrow=block;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" parent="1" source="corpMSP" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e26" style="endArrow=block;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" parent="1" source="corpFA" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e27" style="endArrow=block;html=1;rounded=0;strokeColor=#d6b656;" parent="1" source="ctfm" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e28" style="endArrow=block;html=1;rounded=0;strokeColor=#d6b656;" parent="1" source="ae" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e29" value="合规要求" style="dashed=1;endArrow=block;html=1;rounded=0;strokeColor=#d79b00;fontColor=#7f6000;" parent="1" source="twoLOD" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e30" value="报销审核" style="dashed=1;endArrow=block;html=1;rounded=0;strokeColor=#d79b00;fontColor=#7f6000;" parent="1" source="iag" target="collab" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Other IT team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="649.5" y="259" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="O&amp;amp;O IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4fc3f7;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-178" y="500" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="DPB IT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4fc3f7;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="189" y="500" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=block;html=1;rounded=0;" parent="1" source="faGroup" target="twoLOD" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1452" y="330" as="sourcePoint"/>
+                        <mxPoint x="1469" y="623" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="twoLOD" value="&lt;b&gt;2LOD&lt;/b&gt;&lt;div&gt;设计合规要求\执行监督\事后监控&lt;/div&gt;&lt;div&gt;Milan B3 IOMNI&lt;/div&gt;&lt;div&gt;Mary Lei B3 DPB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#d79b00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1343" y="461" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="collab">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Customer&amp;nbsp;&lt;div&gt;Stakeholder&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="555" y="953" width="110" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="783" y="829" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="864" y="953" width="110" height="46" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
